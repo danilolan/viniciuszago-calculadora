@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
+import LogoImg from "../assets/images/horizontal-2-fundo-azul.png"
 import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import { ThemeProvider } from '@emotion/react'
+import { AppTheme } from '@/themes'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,10 +17,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
+    <html lang="en" >
+        <body className='overflow-x-hidden'>
+          <header className='w-screen bg-primary flex items-center justify-center shadow-lg'>
+            <Image src={LogoImg} alt='Logo Vinicius Zago' className='w-52'/>
+          </header>
+          {children}
+        </body>
     </html>
   )
 }
