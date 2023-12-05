@@ -5,6 +5,7 @@ import Box from "../Box";
 import Masslabel from "../MassLabel";
 import { useEffect, useState } from "react";
 import { capitalizeFirstLetter } from "@/utils/strings";
+import { HiOutlineSwitchVertical } from "react-icons/hi";
 
 type DataFood = Food & {
   mass: string
@@ -72,7 +73,7 @@ export default function Calculator(){
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center gap-8 mt-10">
       <Box>
         <Autocomplete
           disablePortal
@@ -98,6 +99,8 @@ export default function Calculator(){
         <Masslabel value={upFood?.mass}/>
       </Box>
 
+      <HiOutlineSwitchVertical color="primary" size={64}/>
+
       <Box>
         <Autocomplete
           disablePortal
@@ -107,6 +110,7 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento novo"/>}
           color="primary"
           onChange={(_, value) => handleDownFood(value)}
+          className="mb-14"
         />
 
         <Masslabel value={getDownMass().toString()}/>
