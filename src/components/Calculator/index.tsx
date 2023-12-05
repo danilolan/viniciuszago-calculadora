@@ -1,33 +1,116 @@
-import FoodQuery from "@/utils/foodQuery"
+import FoodQuery, { Food } from "@/utils/foodQuery"
 import foodData from "../../data/foods.json"
-import { Autocomplete, Slider, TextField } from "@mui/material";
+import { Autocomplete, FormControl, InputLabel, MenuItem, Select, Slider, TextField } from "@mui/material";
 import Box from "../Box";
 import Masslabel from "../MassLabel";
+import { useEffect, useState } from "react";
+import { capitalizeFirstLetter } from "@/utils/strings";
+
+type DataFood = Food & {
+  mass: string
+}
 
 
 export default function Calculator(){
   const foodQuery = new FoodQuery(foodData)
 
-  const result = foodQuery.getFoodById('6d0d7410-d86b-4080-8c17-97808f9d26ac')
+  const [upFood, setUpFood] = useState<DataFood>()
+  const [downFood, setDownFood] = useState<Food>()
+  const [upOptions, setUpOptions] = useState<string[]>()
+  const [downOptions, setDownOptions] = useState<string[]>()
 
-  const options = ['The Godfather', 'Pulp Fiction'];
 
-    return (
+  useEffect(() => {
+    const result = foodQuery.getFoodsByName("")
+
+
+    setUpOptions(result?.map(food => capitalizeFirstLetter(food.name)))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  function handleUpInput(str: string){
+    const result = foodQuery.getFoodsByName(str)
+
+    setUpOptions(result?.map(food => capitalizeFirstLetter(food.name)))
+  }
+
+  function handleUpFood(name: string | null) {
+    if(!name) return;
+
+    const upResult = foodQuery.getFoodsByName(name)
+
+    if (upResult?.length !== 1) return;
+
+    setUpFood({...upResult[0], mass: "250"})
+
+    const downResult = foodQuery.getFoodsByCategoryId(upResult[0].category_id)
+
+    setDownOptions(downResult?.map(food => capitalizeFirstLetter(food.name)))
+  }
+
+  function handleDownFood(name: string | null) {
+    if(!name) return;
+
+    const result = foodQuery.getFoodsByName(name)
+    if (result?.length !== 1) return;
+
+    setDownFood(result[0])
+  }
+
+  function getDownMass(){
+    if(!upFood?.mass) return 0
+    if(!upFood?.kcal) return 0
+    if(!downFood?.kcal) return 0
+
+    let upMass = parseFloat(upFood.mass) 
+    let upKcal = parseFloat(upFood.kcal)
+    let downKcal = parseFloat(downFood.kcal)
+
+    let result = (upMass * upKcal) / downKcal
+
+    return result.toFixed(0)
+  }
+
+  return (
+    <div className="flex flex-col">
       <Box>
         <Autocomplete
           disablePortal
           id="combo-box-demo"
-          options={options}
-          sx={{ width: 300 }}
-          renderInput={(params) => <TextField {...params} label="Movie" />}
+          options={upOptions || []}
+          sx={{ width: 400 }}
+          renderInput={(params) => <TextField {...params} label="Alimento a ser trocado" onChange={(e) => handleUpInput(e.target.value)}/>}
           color="primary"
+          onChange={(_, value) => handleUpFood(value)}
         />
         
         <br />
 
-        <Slider disabled={false} defaultValue={30} color="primary"/>
+        <Slider 
+          disabled={false} 
+          defaultValue={250} 
+          color="primary" 
+          min={0} max={1000} step={10} 
+          /*@ts-ignore*/
+          onChange={(e) => setUpFood({...upFood, mass: e.target.value})}
+        />
 
-        <Masslabel value={0}/>
+        <Masslabel value={upFood?.mass}/>
       </Box>
-    )
+
+      <Box>
+        <Autocomplete
+          disablePortal
+          id="combo-box-demo"
+          options={downOptions || []}
+          sx={{ width: 400 }}
+          renderInput={(params) => <TextField {...params} label="Alimento novo"/>}
+          color="primary"
+          onChange={(_, value) => handleDownFood(value)}
+        />
+
+        <Masslabel value={getDownMass().toString()}/>
+      </Box>
+    </div>
+  )
 }
