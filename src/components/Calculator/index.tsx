@@ -36,7 +36,14 @@ export default function Calculator(){
   }
 
   function handleUpFood(name: string | null) {
-    if(!name) return;
+    console.log(name)
+
+    if(!name) {
+      setUpFood(undefined)
+      setDownOptions(undefined)
+      setDownFood(undefined)
+      return
+    }
 
     const upResult = foodQuery.getFoodsByName(name)
 
@@ -50,7 +57,10 @@ export default function Calculator(){
   }
 
   function handleDownFood(name: string | null) {
-    if(!name) return;
+    if(!name) {
+      setDownFood(undefined)
+      return
+    }
 
     const result = foodQuery.getFoodsByName(name)
     if (result?.length !== 1) return;
@@ -88,7 +98,7 @@ export default function Calculator(){
         <br />
 
         <Slider 
-          disabled={false} 
+          disabled={!upFood?.name} 
           defaultValue={250} 
           color="primary" 
           min={0} max={1000} step={10} 
@@ -96,7 +106,7 @@ export default function Calculator(){
           onChange={(e) => setUpFood({...upFood, mass: e.target.value})}
         />
 
-        <Masslabel value={upFood?.mass}/>
+        <Masslabel value={upFood?.mass || "0"}/>
       </Box>
 
       <HiOutlineSwitchVertical color="primary" size={64}/>
@@ -111,6 +121,7 @@ export default function Calculator(){
           color="primary"
           onChange={(_, value) => handleDownFood(value)}
           className="mb-14"
+          value={downFood?.name || ""}
         />
 
         <Masslabel value={getDownMass().toString()}/>
