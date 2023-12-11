@@ -94,9 +94,9 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento a ser trocado" onChange={(e) => handleUpInput(e.target.value)}/>}
           color="primary"
           onChange={(_, value) => handleUpFood(value)}
-          className="w-full"
+          className="w-[100%]"
         />
-        
+      
         <br />
 
         <Slider 
@@ -122,7 +122,7 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento novo"/>}
           color="primary"
           onChange={(_, value) => handleDownFood(value)}
-          className="mb-14 w-full"
+          className="mb-14 w-[100%]"
           value={downFood?.name || ""}
         />
 
