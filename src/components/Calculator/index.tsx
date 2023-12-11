@@ -130,7 +130,7 @@ export default function Calculator(){
             <p className={`text-6xl font-bold ${getDownMass().toString() === "0" && 'text-gray-100 '}`}>
               {getDownMass().toString()}
             </p>
-          <p className="text-2xl text-gray-100 font-medium">
+          <p className="text-2xl text-gray-100 font-medium mt-4">
             gramas
           </p>
         </div>
