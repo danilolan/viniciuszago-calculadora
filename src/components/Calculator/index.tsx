@@ -86,16 +86,18 @@ export default function Calculator(){
   return (
     <div className="flex flex-col items-center gap-8 mt-10">
       <Box>
-        <Autocomplete
-          disablePortal
-          id="combo-box-demo"
-          options={upOptions || []}
-          sx={{ width: 400 }}
-          renderInput={(params) => <TextField {...params} label="Alimento a ser trocado" onChange={(e) => handleUpInput(e.target.value)}/>}
-          color="primary"
-          onChange={(_, value) => handleUpFood(value)}
-          className="w-[100%]"
-        />
+        <div>
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={upOptions || []}
+            sx={{ width: 400 }}
+            renderInput={(params) => <TextField {...params} label="Alimento a ser trocado" onChange={(e) => handleUpInput(e.target.value)}/>}
+            color="primary"
+            onChange={(_, value) => handleUpFood(value)}
+            style={{width: "256px"}}
+          />
+        </div>
       
         <br />
 
@@ -122,8 +124,9 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento novo"/>}
           color="primary"
           onChange={(_, value) => handleDownFood(value)}
-          className="mb-14 w-[100%]"
+          className="mb-14"
           value={downFood?.name || ""}
+          style={{width: "256px"}}
         />
 
         <div className="flex flex-col items-center justify-center mx-auto">
