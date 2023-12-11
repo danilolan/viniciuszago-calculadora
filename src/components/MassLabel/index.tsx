@@ -1,17 +1,24 @@
 type Props = {
-    value?: string,
-    unit?: string
+  value?: string,
+  unit?: string,
+  setValue?: (e: string) => void,
+  disabled?: boolean
 }
 
 export default function Masslabel({
-    value, unit
+    value, unit, setValue, disabled
 } : Props) {
 
     return (
-        <div className="flex flex-col w-full items-center justify-center mt-2">
-          <p className={`text-6xl font-bold ${value === "0" && 'text-gray-100 '}`}>
-            {value}
-          </p>
+        <div className="flex flex-col items-center justify-center mx-auto">
+          {
+            !!setValue ?
+            <input type="number" disabled={disabled} className={`disabled:bg-transparent w-full text-center text-6xl font-bold ${value === "0" && 'text-gray-100 '}`} value={value} onChange={(e) => setValue(e.target.value)}/>
+            :
+            <p className={`text-6xl font-bold ${value === "0" && 'text-gray-100 '}`}>
+              {value}
+            </p>
+          }
           <p className="text-2xl text-gray-100 font-medium">
             {unit || "gramas"}
           </p>

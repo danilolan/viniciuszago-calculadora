@@ -15,6 +15,7 @@ type DataFood = Food & {
 export default function Calculator(){
   const foodQuery = new FoodQuery(foodData)
 
+  const [upMass, setUpMass] = useState<string>("0")
   const [upFood, setUpFood] = useState<DataFood>()
   const [downFood, setDownFood] = useState<Food>()
   const [upOptions, setUpOptions] = useState<string[]>()
@@ -69,15 +70,15 @@ export default function Calculator(){
   }
 
   function getDownMass(){
-    if(!upFood?.mass) return 0
+    if(!upMass) return 0
     if(!upFood?.kcal) return 0
     if(!downFood?.kcal) return 0
 
-    let upMass = parseFloat(upFood.mass) 
-    let upKcal = parseFloat(upFood.kcal)
-    let downKcal = parseFloat(downFood.kcal)
+    let parsedUpMass = parseFloat(upMass) 
+    let parsedUpKcal = parseFloat(upFood.kcal)
+    let parsedDownKcal = parseFloat(downFood.kcal)
 
-    let result = (upMass * upKcal) / downKcal
+    let result = (parsedUpMass * parsedUpKcal) / parsedDownKcal
 
     return result.toFixed(0)
   }
@@ -93,20 +94,21 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento a ser trocado" onChange={(e) => handleUpInput(e.target.value)}/>}
           color="primary"
           onChange={(_, value) => handleUpFood(value)}
+          className="w-full"
         />
         
         <br />
 
         <Slider 
           disabled={!upFood?.name} 
-          defaultValue={250} 
           color="primary" 
           min={0} max={1000} step={10} 
           /*@ts-ignore*/
-          onChange={(e) => setUpFood({...upFood, mass: e.target.value})}
+          onChange={(e) => setUpMass(e.target.value)}
+          value={parseInt(upMass || "0")}
         />
 
-        <Masslabel value={upFood?.mass || "0"}/>
+        <Masslabel value={upMass || ""} setValue={setUpMass} disabled={!upFood?.name} />
       </Box>
 
       <HiOutlineSwitchVertical color="primary" size={64}/>
@@ -120,11 +122,18 @@ export default function Calculator(){
           renderInput={(params) => <TextField {...params} label="Alimento novo"/>}
           color="primary"
           onChange={(_, value) => handleDownFood(value)}
-          className="mb-14"
+          className="mb-14 w-full"
           value={downFood?.name || ""}
         />
 
-        <Masslabel value={getDownMass().toString()}/>
+        <div className="flex flex-col items-center justify-center mx-auto">
+            <p className={`text-6xl font-bold ${getDownMass().toString() === "0" && 'text-gray-100 '}`}>
+              {getDownMass().toString()}
+            </p>
+          <p className="text-2xl text-gray-100 font-medium">
+            gramas
+          </p>
+        </div>
       </Box>
     </div>
   )

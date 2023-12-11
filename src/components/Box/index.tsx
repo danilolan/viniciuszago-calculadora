@@ -9,7 +9,7 @@ export default function Box(
     }
 ){
     return (
-        <div className="bg-white p-8 rounded-lg shadow-sm overflow-y-auto h-72">
+        <div className="bg-white p-8 rounded-lg shadow-sm h-72 w-[400px]">
             {children}
         </div>
     )
