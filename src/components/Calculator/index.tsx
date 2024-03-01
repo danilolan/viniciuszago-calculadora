@@ -67,7 +67,7 @@ export default function Calculator() {
     }
 
     const result = foodQuery.getFoodsByName(name);
-    if (result?.length !== 1) return;
+    if (!result) return;
 
     setDownFood(result[0]);
   }
