@@ -1,956 +1,974 @@
 [
   {
-    "id": "ef29e8f4-2d36-475f-aa96-4e4149946aff",
+    "id": "f236a700-7825-43ac-951b-0265e76295ab",
     "name": "Abóbora Cabotian",
     "category_id": 1,
     "kcal": "48.0437425"
   },
   {
-    "id": "ccd054fe-aecd-402d-8475-116018e64728",
+    "id": "71dc08a3-bc4d-4385-8f34-81c1dc9c5de7",
     "name": "Arroz Branco Cozido",
     "category_id": 1,
     "kcal": "128.258485666667"
   },
   {
-    "id": "39ee5b62-41e2-4428-9c07-c530843419cd",
+    "id": "d1ec70b1-3ff8-4481-b165-0be089b75483",
     "name": "Arroz Integral Cozido",
     "category_id": 1,
     "kcal": "123.5348925"
   },
   {
-    "id": "f9132a63-7ee7-4ce5-b4db-e629556f5114",
+    "id": "9dbad6ee-701c-46d0-84f7-022c149a3a6d",
     "name": "Aveia em Flocos",
     "category_id": 1,
     "kcal": "393.822689449275"
   },
   {
-    "id": "13ede50a-1dea-4347-942e-33d2834a6147",
+    "id": "578b1b26-4ec9-4744-abc7-9eebdf4059b5",
     "name": "Batata Inglesa Cozida",
     "category_id": 1,
     "kcal": "51.5884766362707"
   },
   {
-    "id": "f8af57c4-2f2b-47aa-804d-670969c72b94",
+    "id": "62a83e1e-ecfc-44ec-9f91-6abd08c5f128",
     "name": "Batata Doce Cozida",
     "category_id": 1,
     "kcal": "76.7596105034352"
   },
   {
-    "id": "aec50779-dd25-4e11-a5be-859589894da0",
+    "id": "b8ec2239-3828-4f18-b9c7-248ad2309466",
     "name": "Batata Baroa (Mandioquinha) Cozida",
     "category_id": 1,
     "kcal": "80.1197625"
   },
   {
-    "id": "904ad45c-ec93-4525-8deb-560de76c2773",
+    "id": "6cdb34fc-8d38-429f-aa94-0d83c1cd887f",
     "name": "Cará Cozido",
     "category_id": 1,
     "kcal": "77.5849133333334"
   },
   {
-    "id": "a4cdc571-0d35-4bea-a783-ced7061bb765",
+    "id": "dff463dd-4878-41a4-96fc-3490e03b6d5b",
     "name": "Inhame Cozido",
     "category_id": 1,
     "kcal": "116"
   },
   {
-    "id": "55dbfd8f-ec0f-4d36-aefb-1f6ad8745094",
+    "id": "a5fc9cf0-7875-4e46-931a-c9d7c735ef76",
     "name": "Milho Cozido",
     "category_id": 1,
     "kcal": "98"
   },
   {
-    "id": "464f3649-03df-4f2b-9d34-1cfff0f75088",
+    "id": "b86070e3-54c2-4f55-b854-723a891739e4",
     "name": "Mandioca Cozida",
     "category_id": 1,
     "kcal": "125.35825"
   },
   {
-    "id": "14503f2c-531b-4dba-a045-aaa56e31f76f",
+    "id": "89473ade-1d61-44a4-92a2-3b37b2ca6ebb",
     "name": "Macarrão ao Sugo",
     "category_id": 1,
     "kcal": "85,23"
   },
   {
-    "id": "bd40c0cf-5ec5-43c2-90e7-298d49a2f9a5",
+    "id": "1f790c95-e21f-4209-bdee-afb5ff86c464",
     "name": "Farinha de Aveia",
     "category_id": 1,
     "kcal": "390"
   },
   {
-    "id": "5abe7043-75d3-4131-b595-c8394b4bf757",
+    "id": "f8c0db31-3eeb-4db3-9249-dad8820fedc0",
     "name": "Farelo de Aveia",
     "category_id": 1,
     "kcal": "321"
   },
   {
-    "id": "6e250a34-5947-4869-8fb8-b0fc4f8a6a1b",
+    "id": "aefae960-9fae-4d7e-ad16-e6b1bda8f26c",
     "name": "Farinha de Milho",
     "category_id": 1,
     "kcal": "350.58693322738"
   },
   {
-    "id": "2b017738-a168-41f6-b9e0-ff26f8951a80",
+    "id": "73c73d72-6f92-4bcc-b4d3-fc44d16e16b1",
     "name": "Milharina para Cuscuz (yoki)",
     "category_id": 1,
     "kcal": "350"
   },
   {
-    "id": "eb7b6008-4880-4cdc-9937-0cf8f3d4503d",
+    "id": "d12f790d-9478-4988-9144-b89017bbc745",
     "name": "Tapioca",
     "category_id": 1,
     "kcal": "360"
   },
   {
-    "id": "92ceba40-4f80-45e2-b393-15a3ac752ee2",
+    "id": "48ba8a68-d819-4728-9d49-2bc4ce95a095",
     "name": "Pão de Forma",
     "category_id": 1,
     "kcal": "250"
   },
   {
-    "id": "c183cc62-56ce-41cd-97ae-3e644f315f58",
+    "id": "6a199834-362d-4a1d-98a5-e78fd80cbf7a",
     "name": "Pão de Forma Integral",
     "category_id": 1,
     "kcal": "240"
   },
   {
-    "id": "fbe52dba-337f-47df-aebb-3baea67118ea",
+    "id": "d56dc81c-857c-411d-8900-9e68d9b1a8b7",
     "name": "Pão Francês",
     "category_id": 1,
     "kcal": "299.810150434783"
   },
   {
-    "id": "e4874520-2de9-494d-bf39-d79c811eb986",
+    "id": "f763d5ea-7bc4-402e-962f-c1675c940d3a",
     "name": "Granola Light",
     "category_id": 1,
     "kcal": "306,2"
   },
   {
-    "id": "52e2ec79-0407-43e6-86ed-0bde04b05a66",
+    "id": "e15dcc48-1c55-4392-a0dc-c8f1ce3b7f8b",
     "name": "Filé de Frango (Grelhado ou cozido)",
     "category_id": 2,
     "kcal": "159.185007192612"
   },
   {
-    "id": "64b0cd30-545d-44cc-af87-ddc615aed4fd",
+    "id": "c058b248-a1cd-4af8-b6bb-6e8b6b2a25c1",
     "name": "Frango Sobrecoxa sem pele",
     "category_id": 2,
     "kcal": "232.883396666667"
   },
   {
-    "id": "f4570731-9ac3-49af-9e7d-5835125f0402",
+    "id": "987446e3-7b6c-43cb-9321-8c65c2c5bdac",
     "name": "Carne Bovina - Patinho - Cozido",
     "category_id": 2,
     "kcal": "219"
   },
   {
-    "id": "1b7b9f4c-d5d9-45a6-8024-f2155d4c91e2",
+    "id": "0cd8e4a4-8c7e-4660-818f-d4f8a4721304",
     "name": "Carne Bovina - Patinho - Grelhado",
     "category_id": 2,
     "kcal": "219.259266666667"
   },
   {
-    "id": "f2b92039-1902-4cbf-accf-69ba25eef6b5",
+    "id": "b7e66a9e-2843-45bd-94a8-325a33fc532d",
     "name": "Carne Bovina - Contra Filé - Grelhado",
     "category_id": 2,
     "kcal": "193.691566666667"
   },
   {
-    "id": "de76e2e3-27df-4758-9a17-566df2e9f8c5",
+    "id": "62575d81-3ff1-4860-a8f5-167af423f251",
     "name": "Carne Bovina - Filé Mignon - Grelhado",
     "category_id": 2,
     "kcal": "219.7026"
   },
   {
-    "id": "fc8d6e68-ac2a-49ed-a8e8-10eeb3959d06",
+    "id": "19646b69-ec8c-47b8-b5a3-84fdf76ba939",
     "name": "Filé Mignon Suíno",
     "category_id": 2,
     "kcal": "138"
   },
   {
-    "id": "8af1825d-2200-4452-9db7-a1c4acb53867",
+    "id": "84e1786f-81a7-44f6-a6b6-7a58c448cfe1",
     "name": "Pernil Suíno - Assado",
     "category_id": 2,
     "kcal": "262.259606666667"
   },
   {
-    "id": "3e217d3b-f708-4846-b49e-6e4f2912862f",
+    "id": "c68a49f3-1e5c-40f8-9865-9db87225a857",
     "name": "Lombo Suíno - Assado",
     "category_id": 2,
     "kcal": "210.234665579637"
   },
   {
-    "id": "c9d7eaac-b3de-48ef-87b1-04c03d81b804",
+    "id": "8cd2ce86-d5e3-475d-9c1f-fef9efd50a08",
     "name": "Clara de Ovo",
     "category_id": 2,
     "kcal": "55"
   },
   {
-    "id": "a41b495e-4266-4140-a3c4-a396f7a6a9f8",
+    "id": "5f1fe9f7-f795-488f-95df-9cd2fcf15bf9",
     "name": "Ovo Inteiro (Cozido)",
     "category_id": 2,
     "kcal": "145.70017"
   },
   {
-    "id": "18fc2210-538e-4fe7-8dd3-79688150fe12",
+    "id": "cfd43849-d5e3-4cd4-834c-fafcfd7016ce",
     "name": "Whey Protein",
     "category_id": 2,
     "kcal": "400"
   },
   {
-    "id": "57e6bc3b-7232-4fcf-b4c5-f82dbec1e5c6",
+    "id": "2e6fc961-762c-46dc-96af-ddc32255ef07",
     "name": "Albumina",
     "category_id": 2,
     "kcal": "340"
   },
   {
-    "id": "fecc0549-999b-4d11-b14c-729503c9fb52",
+    "id": "305d1b8f-7ef6-45db-b44c-88db3755dc1b",
     "name": "Beef Protein",
     "category_id": 2,
     "kcal": "380"
   },
   {
-    "id": "514014cc-9688-47ef-be59-3fc23ac5e72c",
+    "id": "76b79b1a-f4bb-49b8-9c47-65602fba44ff",
     "name": "Soy Protein",
     "category_id": 2,
     "kcal": "400"
   },
   {
-    "id": "d098aaee-c307-4ee3-8c74-f4de3383dcb9",
+    "id": "e3fe39a7-926b-4331-84c5-79f114a977de",
     "name": "Soja em Grãos",
     "category_id": 2,
     "kcal": "120"
   },
   {
-    "id": "7a291e25-7a1c-4026-b0c3-ee3d3ddaffaf",
+    "id": "1c46b0f0-485c-4c01-a533-8ffdad6f1132",
     "name": "Proteína Texturizada de Soja (cozida ou hidratada)",
     "category_id": 2,
     "kcal": "209"
   },
   {
-    "id": "edfab73a-1a1d-4fc9-9cc8-6d62e6bc51e8",
+    "id": "e22d73e3-55c0-4945-9bd3-51bda005bdc1",
     "name": "leite desnatado",
     "category_id": 3,
     "kcal": "36"
   },
   {
-    "id": "a342db8d-cf5c-48db-a376-9cba0ca8a1e3",
+    "id": "6cccf4bc-c807-480d-a901-43214bbe8c00",
     "name": "leite semidesnatado",
     "category_id": 3,
     "kcal": "40,5"
   },
   {
-    "id": "4ea66996-777a-48de-8cce-d9e750faa142",
+    "id": "0e59142c-6601-4dd7-b0f6-540bba88add6",
     "name": "leite integral",
     "category_id": 3,
     "kcal": "58,5"
   },
   {
-    "id": "75c5e72d-a5a8-49fa-bd53-5f9708f34780",
+    "id": "5482567b-4c83-48bb-99a0-9bea45fdecfd",
     "name": "queijo minas frescal",
     "category_id": 3,
     "kcal": "264.273128"
   },
   {
-    "id": "23336cca-3598-4173-8532-461ab991e987",
+    "id": "4c603b9e-7833-4a12-a55b-df95e2158f56",
     "name": "queijo minas padrão",
     "category_id": 3,
     "kcal": "243"
   },
   {
-    "id": "1df4efe6-8352-4b51-a3a6-5771d06eadd0",
+    "id": "d32f4be9-7a69-46f5-806d-0c2dcb9facd0",
     "name": "queijo minas meia cura",
     "category_id": 3,
     "kcal": "320.72181773326"
   },
   {
-    "id": "962c5161-cafc-4ad6-802e-bc2b625c1014",
+    "id": "23fbff62-fcce-4c4b-804b-a944c36529ee",
     "name": "queijo mussarela",
     "category_id": 3,
     "kcal": "329.870718420887"
   },
   {
-    "id": "54770749-7a7d-4cc6-8e3a-96b4460830ad",
+    "id": "2cec53d0-ec7d-4d94-89cb-86a0a33dfc16",
     "name": "queijo coalho",
     "category_id": 3,
     "kcal": "373"
   },
   {
-    "id": "1ad56c31-7a2d-4bd3-a267-f39c41300ee9",
+    "id": "683bea58-9bd9-444d-a192-88d4162a1d2c",
     "name": "leite em pó desnatado",
     "category_id": 3,
     "kcal": "361.608"
   },
   {
-    "id": "af627eb4-b4eb-45b6-bf4e-9d5972720aff",
+    "id": "b34c0e57-5cf0-48aa-966e-486b6084f40a",
     "name": "leite em pó integral (ninho)",
     "category_id": 3,
     "kcal": "500"
   },
   {
-    "id": "7e90cab6-8043-4140-b743-a8014bfe2df3",
+    "id": "4733a913-1ab2-4037-a734-c8429ad71524",
     "name": "iogurte desnatado sem sabor",
     "category_id": 3,
     "kcal": "38,3"
   },
   {
-    "id": "9c43d4b6-63f6-4096-811f-ea75db992325",
+    "id": "c448e9dd-e5f0-4cd7-8da8-cee764f94644",
     "name": "iogurte integral sem sabor",
     "category_id": 3,
     "kcal": "59,3"
   },
   {
-    "id": "840ee82f-878c-41fe-8416-71fa37f2652c",
+    "id": "e9e6c6fe-27cc-4815-9f77-b54e2f8a102f",
     "name": "activia zero",
     "category_id": 3,
     "kcal": "55"
   },
   {
-    "id": "33cb88fa-291d-478e-88e9-fd02a0966eff",
+    "id": "cfa03bbf-7eb3-45fb-9aa2-977be8eba22c",
     "name": "molico zero",
     "category_id": 3,
     "kcal": "24"
   },
   {
-    "id": "5b3fcdf0-d882-4ced-a4a6-321983c6b4dc",
+    "id": "b2bd3ea0-2431-4c18-8192-eca8bcc910f6",
     "name": "corpus zero",
     "category_id": 3,
     "kcal": "54"
   },
   {
-    "id": "626da48f-7d77-43cb-9f60-c28a7bf484e3",
+    "id": "867b8461-6498-4e60-a09e-10c98a92beb4",
     "name": "bebida de soja tradicional",
     "category_id": 3,
     "kcal": "39"
   },
   {
-    "id": "8d751030-8179-4d16-8361-facad3ea7a7e",
+    "id": "e6380368-1fa9-42ac-a5ae-5eeeceac461f",
     "name": "bebida de soja light",
     "category_id": 3,
     "kcal": "28"
   },
   {
-    "id": "a93e263e-bdf2-41d9-830c-364a3601c72f",
+    "id": "6a926fee-4fae-420b-8eb4-9aec21d831ec",
     "name": "bebida de castanhas",
     "category_id": 3,
     "kcal": "85"
   },
   {
-    "id": "655d2fdc-f29a-4733-912c-9ba04935df55",
+    "id": "32af4181-112a-43e4-a0f9-59cc2bd33077",
     "name": "bebida de aveia",
     "category_id": 3,
     "kcal": "50"
   },
   {
-    "id": "e77414cc-87cb-4f0c-9a89-c49bcf81b945",
+    "id": "8af552e5-9f10-4f35-9c5d-2400f564d5a0",
     "name": "bebida de arroz",
     "category_id": 3,
     "kcal": "49"
   },
   {
-    "id": "ed5ea89f-4dcd-496f-97de-3c79df2b7e61",
+    "id": "83fdd2eb-8e36-4bd5-bcad-a895272e7ddb",
     "name": "azeite de oliva",
     "category_id": 4,
     "kcal": "884"
   },
   {
-    "id": "750fa2c8-8b16-42ca-ba6c-56852e8e1b84",
+    "id": "c7e8a705-10d6-464a-95c0-afa650c7c2df",
     "name": "abacate",
     "category_id": 4,
     "kcal": "96.1547086956522"
   },
   {
-    "id": "ebfbdd81-fa3b-4296-a2ba-f92c171b41bd",
+    "id": "22fae9a0-e467-4c7a-ad46-bbe7e48b130a",
     "name": "castanha do pará",
     "category_id": 4,
     "kcal": "656"
   },
   {
-    "id": "356ad031-fbda-4356-bcab-9df5d972d961",
+    "id": "7217705a-1e98-4a05-8c19-491dc45bdd02",
     "name": "castanha de caju",
     "category_id": 4,
     "kcal": "570.167626501619"
   },
   {
-    "id": "e68cf666-3846-4538-a7c5-3ba5920506b4",
+    "id": "0350d3f1-0dc1-454e-802b-c668717c91bb",
     "name": "amendoim",
     "category_id": 4,
     "kcal": "544.052655799433"
   },
   {
-    "id": "4227513f-91f0-43af-8842-2faaf4a83e68",
+    "id": "d62a2a69-ac0e-43c4-8697-e5869dc35f48",
     "name": "pasta de amendoim - (Troca para gordura)",
     "category_id": 4,
     "kcal": "570"
   },
   {
-    "id": "17fbc41c-c6ed-4985-a5b7-66bd78d5660c",
+    "id": "571b121e-9a5a-4870-839a-e8552976e664",
     "name": "queijo minas - frescal",
     "category_id": 4,
     "kcal": "264.273128"
   },
   {
-    "id": "8988d7de-fdd8-4f1f-9309-b5e24f33e862",
+    "id": "763ebdd8-b028-41fe-bbd3-6936c71c778d",
     "name": "queijo minas - padrão",
     "category_id": 4,
     "kcal": "243"
   },
   {
-    "id": "48ace960-6572-4f6e-872b-4838ec440d1b",
+    "id": "ed5c9b32-23ec-4d1b-b4f6-bc6be2b40e41",
     "name": "queijo minas - meia cura",
     "category_id": 4,
     "kcal": "320.72181773326"
   },
   {
-    "id": "c6926368-055e-46d7-bc39-e8d944e11865",
+    "id": "09c801d6-d6c4-4e9b-a05f-523c0ad25829",
     "name": "queijo - mussarela",
     "category_id": 4,
     "kcal": "329.870718420887"
   },
   {
-    "id": "829bba3d-9ba9-4e6d-a84a-b217813e7e13",
+    "id": "c5964fea-8d90-4abc-8f37-5ed28248bd49",
     "name": "queijo -  coalho",
     "category_id": 4,
     "kcal": "373"
   },
   {
-    "id": "cd959a84-1da8-44f5-a5ab-1c1d9b362429",
+    "id": "46ac3993-c5bd-44cb-b757-19c77bbed32f",
     "name": "ovo de galinha (cozido)",
     "category_id": 4,
     "kcal": "145.70017"
   },
   {
-    "id": "208ebb6a-3260-4538-90d0-e61b5f75299f",
+    "id": "22baa02b-499f-4aed-8bbc-670a2281dd68",
     "name": "Feijão Carioca - Cozido",
     "category_id": 5,
     "kcal": "76.4240856666667"
   },
   {
-    "id": "0e39de38-8260-48cf-821e-3092489bab4c",
+    "id": "24414ce7-e11b-4db1-9675-dc91f8c6e3b8",
     "name": "Feijão Preto - Cozido",
     "category_id": 5,
     "kcal": "77.0272666666667"
   },
   {
-    "id": "ae4d20b4-da8d-475c-b9db-787eabbf5bfd",
+    "id": "71af6d9c-2b7f-4b53-a102-a1db057f2553",
     "name": "Feijão Branco",
     "category_id": 5,
     "kcal": "130"
   },
   {
-    "id": "b2c7d34e-4d4e-44d4-9921-8d7cfe617801",
+    "id": "adaf73e7-0e28-4c93-8c9c-369e652b77af",
     "name": "Feijão Fradinho - Cozido",
     "category_id": 5,
     "kcal": "78.0088966666667"
   },
   {
-    "id": "24554ec3-7c1c-4861-8239-9ee278418724",
+    "id": "6670a3bf-7082-4fab-bafc-5c53602a6feb",
     "name": "Ervilha",
     "category_id": 5,
     "kcal": "88.0935819997785"
   },
   {
-    "id": "cd83fa3d-b06d-4740-95a3-aba9f8cf6e30",
+    "id": "e4b7d415-1739-40d3-8465-2847bb209816",
     "name": "Soja em Grãos",
     "category_id": 5,
     "kcal": "120"
   },
   {
-    "id": "07324a89-8fb7-4217-b031-d3b5969d8a1a",
+    "id": "0729115c-cadf-4beb-820b-d70ea86de472",
     "name": "Lentilha Cozida",
     "category_id": 5,
     "kcal": "92.6387662522992"
   },
   {
-    "id": "9c2d57e9-15a5-41ce-abc3-9b7aaaab313a",
+    "id": "920af3a0-80cf-4c10-96ef-33147de65568",
     "name": "Grão de Bico - Cozido",
     "category_id": 5,
     "kcal": "164"
   },
   {
-    "id": "d83dedda-64f2-4dc6-9d8c-8aeba4719bc8",
+    "id": "86f43472-60d2-4f4a-8481-4b210b2aa146",
     "name": "castanha do pará",
     "category_id": 6,
     "kcal": "656"
   },
   {
-    "id": "f839fb63-20b6-4f9d-a74d-69793d51600f",
+    "id": "691b8fed-9345-4483-94ed-66b288e7c4e5",
     "name": "castanha de caju",
     "category_id": 6,
     "kcal": "570.167626501619"
   },
   {
-    "id": "a87777e1-d6f9-423a-826e-af28193e8c6f",
+    "id": "51c12dcf-9663-4226-aa9e-7c8ae4201302",
     "name": "Amendoim Torrado, salgado",
     "category_id": 6,
     "kcal": "605.781092917019"
   },
   {
-    "id": "ea67d3d9-7f04-452a-a281-c54b646bc45f",
+    "id": "5bdd8a46-10d9-4b80-ac5d-7073a32db83a",
     "name": "Nozes",
     "category_id": 6,
     "kcal": "651"
   },
   {
-    "id": "63307eaf-556c-4842-90f8-8c327b572c80",
+    "id": "22436d97-0c16-4c8e-b812-774303decb1e",
     "name": "Macadâmia",
     "category_id": 6,
     "kcal": "702"
   },
   {
-    "id": "b96d22b2-b4e7-471a-a462-71adb91e5e12",
+    "id": "76a86a9e-290a-4e94-b210-9041e6c2e703",
     "name": "Amêndoa Seca",
     "category_id": 6,
     "kcal": "589"
   },
   {
-    "id": "0c366850-ea71-459e-9e80-d86cdaaa74c4",
+    "id": "a0787cbf-c7f4-4f68-902b-2ea42812ff45",
     "name": "Amêndoa Torrada com Sal",
     "category_id": 6,
     "kcal": "587"
   },
   {
-    "id": "18dcf744-8fad-42b7-877c-e4f1c335c549",
+    "id": "e94c686c-2344-4590-85b4-3346f9198d42",
     "name": "Avelã",
     "category_id": 6,
     "kcal": "628"
   },
   {
-    "id": "b1354eb3-2a4e-49e7-946c-9ab362e91613",
+    "id": "c52e9900-cca7-4aef-ae9d-bd46a0b7d0b2",
     "name": "chocolate ao leite",
     "category_id": 7,
     "kcal": "540"
   },
   {
-    "id": "e4c19a0a-fade-43c1-8d93-c6e2ab45b902",
+    "id": "e45ded5b-97d1-4f34-b64d-af38bd1598ae",
     "name": "chocolate amargo",
     "category_id": 7,
     "kcal": "475"
   },
   {
-    "id": "ccfcc1f5-507d-4a4d-ac69-02339bddf931",
+    "id": "5dfad8fc-5c95-4d07-92c0-1d4d21866591",
     "name": "banana passa",
     "category_id": 7,
     "kcal": "280"
   },
   {
-    "id": "9c8de711-e4c3-4265-ad29-ce40a1d54eb6",
+    "id": "20544b89-dbd9-464b-8c4a-f2c72cfbfd80",
     "name": "doce de goiabada",
     "category_id": 7,
     "kcal": "282"
   },
   {
-    "id": "f037a2db-2e5b-4cf9-9e56-6f3c0b14ae70",
+    "id": "68cf1f87-9949-4bb1-9cc7-23e67f661fb6",
     "name": "doce de mamão (sem caldo)",
     "category_id": 7,
     "kcal": "196"
   },
   {
-    "id": "75c9387d-c179-4fb0-bcdb-aaa721f88cd3",
+    "id": "10b742cc-22d7-4220-998c-dec1b1e06190",
     "name": "doce de abóbora",
     "category_id": 7,
     "kcal": "199"
   },
   {
-    "id": "09dcc6cc-96b6-47c1-9438-469977f12b05",
+    "id": "23edf056-cffb-4844-8fa5-7bdb61da2b63",
     "name": "doce de leite",
     "category_id": 7,
     "kcal": "306"
   },
   {
-    "id": "65c82553-6983-485e-bd17-e570e8467c23",
+    "id": "c106ad1c-1183-4c58-aa49-1a48b016d4af",
     "name": "mel",
     "category_id": 7,
     "kcal": "309"
   },
   {
-    "id": "faa14d8e-299b-4fb7-99c4-8de4b70b3ac8",
+    "id": "f2dcba03-abb6-462d-9172-da6c947f5b31",
     "name": "rapadura",
     "category_id": 7,
     "kcal": "352"
   },
   {
-    "id": "b617b2d7-ac1f-4971-b8f9-693c0e6e6354",
+    "id": "07377203-9150-40ad-bf81-be40b0508531",
     "name": "Passas (Uva)",
     "category_id": 7,
     "kcal": "300"
   },
   {
-    "id": "5cec4482-9ec1-4fa6-9557-33655f4c1406",
+    "id": "7fd96eb7-6d76-4c20-8d63-2f3374ab7287",
     "name": "Leite Condensado",
     "category_id": 7,
     "kcal": "325"
   },
   {
-    "id": "95beb5c5-9104-4310-a9b6-1adf922252b1",
+    "id": "3383ae41-ae4e-4144-ad35-f86e328506d6",
     "name": "Pasta de Amendoim (Troca para Doce)",
     "category_id": 7,
     "kcal": "570"
   },
   {
-    "id": "4393695a-82e2-4875-985c-22a020f78fc4",
+    "id": "a871affd-0781-49a1-98a9-982e1e4aebec",
     "name": "Nutella",
     "category_id": 7,
     "kcal": "535"
   },
   {
-    "id": "9fcb5123-3b58-440d-a8f4-1df200d41f55",
+    "id": "dfe34790-1665-4c64-861a-b9b6309245f3",
     "name": "Abacaxi",
     "category_id": 8,
     "kcal": "48"
   },
   {
-    "id": "8bd3ae66-93f9-4fe6-9a2b-55d75d2b49eb",
+    "id": "8cfaeb3d-d33a-4306-b718-fa01870d2d24",
     "name": "Abacate",
     "category_id": 8,
     "kcal": "96"
   },
   {
-    "id": "3a8d2bf2-4eb6-4d55-b941-c8e826286d92",
+    "id": "a1cf3888-b62c-4562-8ea6-78712e40d9a7",
     "name": "Ameixa",
     "category_id": 8,
     "kcal": "53"
   },
   {
-    "id": "2b76fc61-9271-4eef-a47b-25dce991bc0d",
+    "id": "a5acc49b-ec01-4874-94a2-e8a1882601d0",
     "name": "Acerola",
     "category_id": 8,
     "kcal": "33"
   },
   {
-    "id": "1fe966fa-50e3-4d60-bc77-024ad4057f0b",
+    "id": "f32a5f53-9e18-425e-83b4-8d42ca447262",
     "name": "Banana da Terra",
     "category_id": 8,
     "kcal": "128"
   },
   {
-    "id": "56063357-2b00-4efb-90d5-8dd8b0e76218",
+    "id": "f7286e38-9140-4aed-a117-df069043921f",
     "name": "Banana Figo",
     "category_id": 8,
     "kcal": "105"
   },
   {
-    "id": "eb79e8f8-f2a6-40ff-a882-e60cc36f2d82",
+    "id": "4fd44144-f07b-4e5f-b708-e3c68eb1d24e",
     "name": "Banana Maçã",
     "category_id": 8,
     "kcal": "87"
   },
   {
-    "id": "009dbf67-a296-433f-a066-5dbe994d89ca",
+    "id": "93dd22b1-cce9-4be9-b7bd-ce6049b0b790",
     "name": "Banana Nanica",
     "category_id": 8,
     "kcal": "92"
   },
   {
-    "id": "af6d54e9-6b5d-43eb-a4f8-2424cebef596",
+    "id": "96e1d8bd-d3bc-4ab4-8b36-86d9786e0f8e",
     "name": "Banana Ouro",
     "category_id": 8,
     "kcal": "112"
   },
   {
-    "id": "a4512b41-9e1c-4d7c-8aa5-5fb12a938526",
+    "id": "e606eb41-cccf-409f-8f91-0ca82fa9d283",
     "name": "Banana Prata",
     "category_id": 8,
     "kcal": "78"
   },
   {
-    "id": "de64b3d6-379f-4039-846c-f6ce72817bc6",
+    "id": "8adea992-e5b2-43a3-a2e6-e307fa65f3ea",
     "name": "Figo",
     "category_id": 8,
     "kcal": "41"
   },
   {
-    "id": "f889232b-d7b3-421c-9532-485ca297c4bd",
+    "id": "86868e8a-971c-4579-a2a1-4acbf9a1e7bf",
     "name": "Goiaba",
     "category_id": 8,
     "kcal": "54"
   },
   {
-    "id": "f21aef75-9962-47e7-85f1-e6c0a37ecf2b",
+    "id": "4740cf9a-3c70-4e1c-82cc-1bcbdaf55d28",
     "name": "Kiwi",
     "category_id": 8,
     "kcal": "51"
   },
   {
-    "id": "67702ca9-fc1f-4f86-98b6-2a0de2546123",
+    "id": "f2751517-264a-489f-a29e-07b12c0d159c",
     "name": "Laranja Baía",
     "category_id": 8,
     "kcal": "45"
   },
   {
-    "id": "761b49cf-df6a-4da7-a6da-cb621084e2df",
+    "id": "e233caf1-9a6e-46e5-9d8f-0f6313ba8ba0",
     "name": "Laranja da Terra",
     "category_id": 8,
     "kcal": "51"
   },
   {
-    "id": "0c73cbfc-78dd-43ac-afcb-c6aa88048238",
+    "id": "bef021b9-c584-4a3c-9b73-b3e7a5876e77",
     "name": "Laranja Lima",
     "category_id": 8,
     "kcal": "46"
   },
   {
-    "id": "b930e02c-35f2-4ffc-a84a-2b9836f95fed",
+    "id": "7bd9c263-7f18-4cdd-afec-ae151d01dbca",
     "name": "Laranja Pêra",
     "category_id": 8,
     "kcal": "37"
   },
   {
-    "id": "db55e028-f922-4cf4-abbd-9f689649d89a",
+    "id": "da13954b-919d-43af-ab85-b63c1d9e361c",
     "name": "Laranja Valência",
     "category_id": 8,
     "kcal": "46"
   },
   {
-    "id": "a7708891-9e82-4149-a7de-4b06ce44dcbe",
+    "id": "04f86aa3-6ae0-4d4c-8d0e-b4bc9c3b1af2",
     "name": "Limão",
     "category_id": 8,
     "kcal": "32"
   },
   {
-    "id": "161f7071-bcab-4a4e-be26-c112b52ef497",
+    "id": "d0eea721-b215-4acc-ad74-4edca43359d8",
     "name": "Morango",
     "category_id": 8,
     "kcal": "30"
   },
   {
-    "id": "80174154-1e03-4162-88d4-e35cc1413b0a",
+    "id": "a25f5cb3-9b0c-4a50-ac42-d919406027bc",
     "name": "Mamão",
     "category_id": 8,
     "kcal": "36"
   },
   {
-    "id": "389f6fc4-e192-4789-a781-7bd12a441324",
+    "id": "2a2194ad-23e6-4f1e-91fc-4a5fe0b55860",
     "name": "Melancia",
     "category_id": 8,
     "kcal": "33"
   },
   {
-    "id": "14372a61-7c6b-4ae3-b642-98f40f02e335",
+    "id": "4eb0242e-21c5-433d-b217-51043747f656",
     "name": "Mexerica Murcote",
     "category_id": 8,
     "kcal": "58"
   },
   {
-    "id": "6b5bda79-f831-4b85-9d89-3c70aad84fac",
+    "id": "e8819d6f-892f-4bac-861a-c2896e339e28",
     "name": "Mexerica Rio",
     "category_id": 8,
     "kcal": "37"
   },
   {
-    "id": "a7c6bf2a-2c9f-48f2-a1e5-d6f81ad9d309",
+    "id": "805eaaf5-baef-40ba-8977-67169b3adc26",
     "name": "Melão",
     "category_id": 8,
     "kcal": "29"
   },
   {
-    "id": "7c4b23cb-2028-4c39-ad1f-c741f06a0548",
+    "id": "9ccfd739-3abd-487e-9f09-14af6abc4039",
     "name": "Manga Palmer",
     "category_id": 8,
     "kcal": "72"
   },
   {
-    "id": "faf3630b-27a1-472a-8faf-ada55151a29c",
+    "id": "f0f58e46-c0ee-4e10-bdec-6b8c4998ae37",
     "name": "Maçã",
     "category_id": 8,
     "kcal": "56"
   },
   {
-    "id": "4c9fabec-4c89-4f03-91b5-c05b3489e559",
+    "id": "ba9290d6-3427-40a1-8f10-f54d86ac3207",
     "name": "Maracujá",
     "category_id": 8,
     "kcal": "68"
   },
   {
-    "id": "7d71e63a-cb48-4d44-8454-876970097af1",
+    "id": "4d51e9b4-bbb9-4bcc-99ef-0551ca8b32e3",
     "name": "Pera",
     "category_id": 8,
     "kcal": "61"
   },
   {
-    "id": "838d8621-5259-4950-a706-26e86c423eb0",
+    "id": "9e4f33d3-b7df-4091-a5d0-799a3002792e",
     "name": "Pêssego",
     "category_id": 8,
     "kcal": "36"
   },
   {
-    "id": "f319989c-f5d4-4cf9-90aa-d522e46d6e38",
+    "id": "6736b33a-b988-4d9b-99b9-f2883ee7df20",
     "name": "Tâmara Seca",
     "category_id": 8,
     "kcal": "350"
   },
   {
-    "id": "2d17b777-aaa0-4471-aeb7-ed50fb3cbf5d",
+    "id": "3f447911-9c6f-41a2-9829-0e64780eaab0",
     "name": "Uva",
     "category_id": 8,
     "kcal": "53"
   },
   {
-    "id": "4b3ed8ef-08e1-4e8c-9102-6850e2ffbe5a",
+    "id": "3352380a-0b60-4838-8693-db5f1164262e",
     "name": "Caqui",
     "category_id": 8,
     "kcal": "71"
   },
   {
-    "id": "9626b457-6634-4277-b6df-3ed6ae71de7a",
+    "id": "046ac709-c55f-4ede-a080-ee7ccf422242",
     "name": "Pitaya",
     "category_id": 8,
     "kcal": "50"
   },
   {
-    "id": "9ef338c8-e492-4ae0-bddd-b1f31273d95d",
+    "id": "c56caae2-eea0-4240-b3b9-f6fb8b615cac",
     "name": "Sucrilhos",
     "category_id": 7,
     "kcal": "386.7"
   },
   {
-    "id": "6d56cba9-8b0a-44d5-ba31-4c2e0addfbf3",
+    "id": "4c124afc-2871-4ce2-8e5c-445f42eb80d4",
     "name": "Ricota",
     "category_id": 4,
     "kcal": "203.3"
   },
   {
-    "id": "65b45c73-0f9b-4552-a69a-448ff214e64d",
+    "id": "fe5e22e6-ba2e-430a-80b0-e3179ed98770",
     "name": "Ricota Light",
     "category_id": 4,
     "kcal": "146.6"
   },
   {
-    "id": "9896f26b-6212-45b2-89d5-6689c7ca22f3",
+    "id": "c848791a-6146-494d-8a32-8d0acfeb4ce2",
     "name": "Atum em lata - água",
     "category_id": 2,
     "kcal": "135"
   },
   {
-    "id": "8eb05398-89da-4bb1-b3ec-01ff44b66aa3",
+    "id": "b137f30a-3ea9-4e03-94da-0b3786741d4b",
     "name": "Atum em lata - óleo",
     "category_id": 2,
     "kcal": "175"
   },
   {
-    "id": "ff85c3e6-45fb-4324-9c0f-c7cda5d7dfda",
+    "id": "1032610c-946c-490f-b012-eed8970e1ce4",
     "name": "Tilápia Grelhada",
     "category_id": 2,
     "kcal": "128"
   },
   {
-    "id": "847a1f46-ef4a-4006-ac3f-bd796a5b53e1",
+    "id": "39471e6a-ee23-4257-97e5-e7197b5ade9a",
     "name": "Carne de Soja - Refogada",
     "category_id": 2,
     "kcal": "142,5"
   },
   {
-    "id": "e879fa4d-ef0c-443d-aceb-563563f868d1",
+    "id": "13f076b8-bfb8-4f40-8706-fe9381a56968",
     "name": "Paçoca Rolha Paçoquita",
     "category_id": 7,
     "kcal": "522,3"
   },
   {
-    "id": "bd19e5c3-c019-4a35-8aef-7a3046aea04d",
+    "id": "260d1a21-1fe0-4c6c-96b4-8e1694b26746",
     "name": "Arroz Gohan Cozido",
     "category_id": 1,
     "kcal": "130"
   },
   {
-    "id": "c9aae6a7-be28-4990-b7a4-9552406889a9",
+    "id": "c2353a5d-35ef-4d2b-a02e-ce1500c4cbb4",
     "name": "Salmão, sem pele, fresco, grelhado",
     "category_id": 2,
     "kcal": "243"
   },
   {
-    "id": "c75f7217-86a8-4faf-8b75-c88b15c41cff",
+    "id": "5607e37f-5871-47b8-8ecd-19d06fc49d32",
     "name": "Sardinha em lata - óleo",
     "category_id": 2,
     "kcal": "180"
   },
   {
-    "id": "d9952d7c-cf6f-4870-a0ef-3b7e0d768c88",
+    "id": "55df2dd9-d10b-4a64-85a8-c5a4ba4c72a0",
     "name": "Sardinha em lata - água",
     "category_id": 2,
     "kcal": "146"
   },
   {
-    "id": "54f03a2d-2401-4971-8c7e-dc7b48d3206a",
+    "id": "fd65780d-072a-4dea-a9bd-7af061c48819",
     "name": "Chia",
     "category_id": 1,
     "kcal": "374"
   },
   {
-    "id": "5b1aeba0-ff67-4d8b-bf8a-f44f39e54efd",
+    "id": "4b8a6fd4-4b50-4523-88f8-ffc52d972940",
     "name": "Bife de Fígado Grelhado",
     "category_id": 2,
     "kcal": "225"
   },
   {
-    "id": "6f0a72da-4fcd-48fa-9496-01c2437d8566",
+    "id": "10195541-21f8-45d7-9c33-bdcf3a541cf7",
     "name": "Ferrero Rocher",
     "category_id": 7,
     "kcal": "596"
   },
   {
-    "id": "e67ebc32-59ae-49ba-b905-a30bd699592b",
+    "id": "c35f8807-4f7d-4717-938b-455ed6f997e2",
     "name": "Kinder Bueno",
     "category_id": 7,
     "kcal": "571"
   },
   {
-    "id": "a720cd4e-4cdf-4e95-9f7e-f4baa04bc71e",
+    "id": "8ac58145-9a6b-4de6-8cc7-de9181047115",
     "name": "Queijo Prato",
     "category_id": 3,
     "kcal": "360"
   },
   {
-    "id": "a3d2e043-a23b-4176-bf66-1991dc035011",
+    "id": "56bc14b6-a67e-49f1-bb8a-cb32fb560fab",
     "name": " Abacate - Fruta",
     "category_id": 8,
     "kcal": "96"
   },
   {
-    "id": "8d298a43-c8d4-44d0-b4d5-a294242af182",
+    "id": "d51f19f3-594d-426c-a843-12b534ea8924",
     "name": " Ovo de Codorna",
     "category_id": 2,
     "kcal": "177"
   },
   {
-    "id": "80f4b40c-a345-466a-8ecd-8a24e67036ad",
+    "id": "8159f000-922a-4ad4-a3ab-a43a74a93084",
     "name": " Filé Mignon Suíno",
     "category_id": 2,
     "kcal": "125"
   },
   {
-    "id": "f7f39e04-ee7f-4bb4-b654-fbdfa4428d11",
+    "id": "101195e5-aeed-4517-974f-3fdb18324517",
     "name": " Mirtilo",
     "category_id": 8,
     "kcal": "57"
   },
   {
-    "id": "294e1d14-be26-4414-8327-5b858937e7a3",
+    "id": "19fcb0eb-cc21-4a56-84c0-b3a548f20a39",
     "name": " Amora",
     "category_id": 8,
     "kcal": "43"
   },
   {
-    "id": "611ed726-bdce-4a9c-b055-54bed0d04cfd",
-    "name": " Filé de Abadejo",
+    "id": "56f8d89b-1e7c-4e97-8bff-07f372e86028",
+    "name": "Filé de Abadejo",
     "category_id": 2,
     "kcal": "122.1"
   },
   {
-    "id": "9238e59e-cbd6-469c-8874-6642252744b9",
+    "id": "0795ebd3-fa84-4f05-9d3f-0417a74346c0",
     "name": "Nozes",
     "category_id": 3,
     "kcal": "620"
   },
   {
-    "id": "befee431-cc30-4a92-9fab-027f48bbe6ce",
+    "id": "7cbb1b4c-5d5e-41b0-916e-cbe5a7bbee1d",
     "name": "Amêndoas",
     "category_id": 3,
     "kcal": "581"
   },
   {
-    "id": "90655db3-24b2-4a44-a880-43cc7153c60e",
+    "id": "4c9616dc-7e22-4971-afca-c8b07d19f619",
     "name": "Queijo Parmesão",
     "category_id": 3,
+    "kcal": "431"
+  },
+  {
+    "id": "1122a9d2-b952-4f0d-8e0d-e9f740179a13",
+    "name": "Açaí",
+    "category_id": 1,
+    "kcal": "163"
+  },
+  {
+    "id": "08d5004b-5aec-4e2c-9179-e20ec8265b89",
+    "name": "Peito de peru",
+    "category_id": 6,
+    "kcal": "110"
+  },
+  {
+    "id": "d67e08e8-ebf1-44e7-895f-cca52a1bae57",
+    "name": "Bolacha de arroz integral",
+    "category_id": 1,
     "kcal": "431"
   }
 ]
